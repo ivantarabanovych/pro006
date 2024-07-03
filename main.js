@@ -1,3 +1,2 @@
-let inputValue = true;
-isTrue = Boolean(inputValue);
-console.log(isTrue);
+let inputValue = 5;
+console.log(`${typeof inputValue}, ${String(inputValue)}, ${parseInt(inputValue)}, ${Boolean(inputValue)}`);
